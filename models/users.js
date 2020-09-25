@@ -24,6 +24,12 @@
         Date_of_Joining : {
             type : Date,
         },
+        accessToken : {
+            type : String,
+        },
+        refreshToken : {
+            type : String,
+        },
         LinkedCategories : {
             type: Schema.Types.ObjectId,
             ref : 'categories'
